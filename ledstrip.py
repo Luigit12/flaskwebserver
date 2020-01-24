@@ -41,7 +41,7 @@ def index():
 @app.route('/red')
 def red():
     GPIO.output(20,GPIO.HIGH)
-    print("Red on)
+    print("Red on")
     return makePage('Red')
 
 @app.route('/yellow')
